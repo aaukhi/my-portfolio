@@ -1,13 +1,6 @@
 
-@font-face{ 
-	font-family: 'nimbus sans l';
-	src: url('assets/fonts/web fonts/NimbusSanL-Bol-webfont.woff') format('woff'),
-    url('assets/fonts/web fonts/NimbusSanL-BolIta-webfont.woff') format('woff'),
-    url('assets/fonts/web fonts/NimbusSanL-RegIta-webfont.woff') format('woff'),
-    url('assets/fonts/web fonts/NimbusSanL-Reg-webfont.woff') format('woff'),;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 
 
 //custom things//
@@ -70,7 +63,7 @@ body {
     background-color: #eaeaea;
 
     text-align: left;
-    font-family: 'nimbus sans l', 'inter';
+    font-family: 'inter';
 
     
     cursor: crosshair;
@@ -226,7 +219,7 @@ a {
         }
 
         h1 {
-            margin-top: 96px;
+            margin-top: 48px;
             line-height: 48px;
         }
     
@@ -406,7 +399,7 @@ a {
     
         .hero {
     
-            margin-top: 468px;
+            margin-top: 464px !important;
             margin-left: 40px;
         
             h1 {
@@ -428,7 +421,7 @@ a {
         }
     
         .links-landing-page {
-            margin-top: 80px;
+            margin-top: 64px;
             margin-left: 40px;
             font-size: 16px;
 
