@@ -1,22 +1,10 @@
 
-@font-face {
-    src: url(assets/fonts/nimbus-sans-l/NimbusSanL-Bol.otf);
-    font-family: Nimbus sans l;
-}
-
-@font-face {
-    src: url(assets/fonts/nimbus-sans-l/NimbusSanL-BolIta.otf);
-    font-family: Nimbus sans l;
-}
-
-@font-face {
-    src: url(assets/fonts/nimbus-sans-l/NimbusSanL-Reg.otf);
-    font-family: Nimbus sans l;
-}
-
-@font-face {
-    src: url(assets/fonts/nimbus-sans-l/NimbusSanL-RegIta.otf);
-    font-family: Nimbus sans l;
+@font-face{ 
+	font-family: 'nimbus sans l';
+	src: url('assets/fonts/web fonts/NimbusSanL-Bol-webfont.woff') format('woff'),
+    url('assets/fonts/web fonts/NimbusSanL-BolIta-webfont.woff') format('woff'),
+    url('assets/fonts/web fonts/NimbusSanL-RegIta-webfont.woff') format('woff'),
+    url('assets/fonts/web fonts/NimbusSanL-Reg-webfont.woff') format('woff'),;
 }
 
 
@@ -53,7 +41,7 @@ body {
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
-        background-color: #131311;
+        background-color: #B28DFF;
     }
     100% {
         opacity: 1;
