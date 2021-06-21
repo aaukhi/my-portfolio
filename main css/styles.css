@@ -1,22 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 @font-face {
   src: url(assets/fonts/nimbus-sans-l/NimbusSanL-Bol.otf);
-  font-family: Nimbus;
+  font-family: Nimbus sans l;
 }
 
 @font-face {
   src: url(assets/fonts/nimbus-sans-l/NimbusSanL-BolIta.otf);
-  font-family: Nimbus;
+  font-family: Nimbus sans l;
 }
 
 @font-face {
   src: url(assets/fonts/nimbus-sans-l/NimbusSanL-Reg.otf);
-  font-family: Nimbus;
+  font-family: Nimbus sans l;
 }
 
 @font-face {
   src: url(assets/fonts/nimbus-sans-l/NimbusSanL-RegIta.otf);
-  font-family: Nimbus;
+  font-family: Nimbus sans l;
 }
 
 /* width */
@@ -36,13 +35,13 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: red;
+  background: #B28DFF;
 }
 
 /* aimations */
 body {
-  -webkit-animation: fadeInAnimation ease 2s;
-          animation: fadeInAnimation ease 2s;
+  -webkit-animation: fadeInAnimation ease-in-out 2s;
+          animation: fadeInAnimation ease-in-out 2s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -52,6 +51,7 @@ body {
 @-webkit-keyframes fadeInAnimation {
   0% {
     opacity: 0;
+    background-color: #131311;
   }
   100% {
     opacity: 1;
@@ -61,6 +61,7 @@ body {
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
+    background-color: #131311;
   }
   100% {
     opacity: 1;
@@ -80,8 +81,8 @@ body {
   color: #131311;
   background-color: #eaeaea;
   text-align: left;
-  font-family: 'Nimbus Sans L';
-  cursor: url("../assets/images/cursor.svg"), auto;
+  font-family: 'Nimbus sans l', 'inter';
+  cursor: crosshair;
 }
 
 ::-moz-selection {
@@ -236,16 +237,6 @@ a {
   background-color: #131311;
 }
 
-.some-more-info {
-  margin-top: 144px;
-  margin-right: 16px;
-  margin-left: 16px;
-}
-
-.some-more-info p {
-  margin-top: 40px;
-}
-
 .say-hello {
   margin-top: 144px;
 }
@@ -271,6 +262,8 @@ a {
   color: #131311;
   text-decoration: none;
   display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 1.5px solid #131311;
   border-left: none;
   border-right: none;
@@ -340,14 +333,6 @@ a {
   }
   .about-me p {
     margin-top: 24px;
-  }
-  .some-more-info {
-    margin-top: 144px;
-    margin-right: 16px;
-    margin-left: 16px;
-  }
-  .some-more-info p {
-    margin-top: 40px;
   }
 }
 
@@ -434,12 +419,12 @@ a {
   }
   .featured-project a:link h1, .featured-project a:visited h1 {
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 104px;
     line-height: 56px;
   }
   .featured-project a:link p, .featured-project a:visited p {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 16px;
+    line-height: 40px;
     margin-top: 16px;
     background: none;
   }
@@ -447,21 +432,8 @@ a {
     color: #eaeaea;
     background-color: #131311;
   }
-  .some-more-info {
-    margin-top: 144px;
-    margin-right: 40px;
-    margin-left: 40px;
-  }
-  .some-more-info h2 {
-    font-size: 16px;
-  }
-  .some-more-info p {
-    font-size: 24px;
-    line-height: 56px;
-    margin-top: 40px;
-  }
   .say-hello {
-    margin-top: 144px;
+    margin-top: 264px;
   }
   .say-hello h1 {
     font-size: 40px;
