@@ -7,6 +7,8 @@
     url('assets/fonts/web fonts/NimbusSanL-Reg-webfont.woff') format('woff'),;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 
 //custom things//
 
@@ -68,7 +70,7 @@ body {
     background-color: #eaeaea;
 
     text-align: left;
-    font-family: 'Nimbus sans l', 'inter';
+    font-family: 'nimbus sans l', 'inter';
 
     
     cursor: crosshair;

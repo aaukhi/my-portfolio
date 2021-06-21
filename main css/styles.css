@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 @font-face {
   font-family: 'nimbus sans l';
   src: url("assets/fonts/web fonts/NimbusSanL-Bol-webfont.woff") format("woff"), url("assets/fonts/web fonts/NimbusSanL-BolIta-webfont.woff") format("woff"), url("assets/fonts/web fonts/NimbusSanL-RegIta-webfont.woff") format("woff"), url("assets/fonts/web fonts/NimbusSanL-Reg-webfont.woff") format("woff");
@@ -66,7 +67,7 @@ body {
   color: #131311;
   background-color: #eaeaea;
   text-align: left;
-  font-family: 'Nimbus sans l', 'inter';
+  font-family: 'nimbus sans l', 'inter';
   cursor: crosshair;
 }
 
