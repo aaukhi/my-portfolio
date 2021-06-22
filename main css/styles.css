@@ -21,8 +21,8 @@
 
 /* aimations */
 body {
-  -webkit-animation: fadeInAnimation ease-in-out 2s;
-          animation: fadeInAnimation ease-in-out 2s;
+  -webkit-animation: fadeInAnimation ease-in-out 1s;
+          animation: fadeInAnimation ease-in-out 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -32,7 +32,7 @@ body {
 @-webkit-keyframes fadeInAnimation {
   0% {
     opacity: 0;
-    background-color: #B28DFF;
+    background-color: #131311;
   }
   100% {
     opacity: 1;
@@ -42,7 +42,7 @@ body {
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
-    background-color: #B28DFF;
+    background-color: #131311;
   }
   100% {
     opacity: 1;
@@ -105,9 +105,10 @@ a {
 }
 
 .landing-page-sec {
-  background-color: #B28DFF;
+  background-color: #131311;
   height: 824px;
   width: 100vw;
+  color: #eaeaea;
 }
 
 .landing-page-sec header {
@@ -123,7 +124,7 @@ a {
 
 .landing-page-sec header .info-short {
   width: 146px;
-  color: #131311;
+  color: #eaeaea;
   font-size: 12px;
   line-height: 24px;
 }
@@ -141,6 +142,7 @@ a {
 }
 
 .landing-page-sec .hero .typewrite {
+  color: #eaeaea;
   font-style: italic;
 }
 
@@ -152,6 +154,7 @@ a {
   margin-top: 64px;
   margin-left: 16px;
   font-size: 12px;
+  color: #eaeaea;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,6 +165,7 @@ a {
 
 .landing-page-sec .links-landing-page a {
   padding-right: 16px;
+  color: #eaeaea;
 }
 
 .about-me {
@@ -273,9 +277,10 @@ a {
     width: 100vw;
   }
   .landing-page-sec header {
-    border: 1.5px solid #131311;
+    border: 1.5px solid #eaeaea;
     border-left: none;
     border-right: none;
+    border-top: none;
   }
   .landing-page-sec .hero {
     margin-top: 624px;
@@ -289,6 +294,7 @@ a {
     font-weight: 400;
   }
   .landing-page-sec .hero .typewrite {
+    color: #eaeaea;
     font-style: italic;
   }
   .landing-page-sec .hero .bracket {
@@ -307,6 +313,7 @@ a {
   }
   .landing-page-sec .links-landing-page a {
     padding-right: 16px;
+    color: #eaeaea;
   }
   .about-me {
     margin: 16px;
@@ -324,9 +331,10 @@ a {
   }
   .landing-page-sec header {
     font-size: 16px !important;
-    border: 1.5px solid #131311;
+    border: 1.5px solid #eaeaea;
     border-left: none;
     border-right: none;
+    border-top: none;
     padding: 40px;
   }
   .landing-page-sec header .info-short {
@@ -339,6 +347,7 @@ a {
     margin-left: 40px;
   }
   .landing-page-sec .hero h1 {
+    color: #eaeaea;
     margin: 0px !important;
     width: 1600px !important;
     height: 176px !important;
@@ -346,6 +355,7 @@ a {
     font-weight: 400;
   }
   .landing-page-sec .hero .typewrite {
+    color: #eaeaea;
     font-style: italic;
   }
   .landing-page-sec .hero .bracket {
@@ -358,6 +368,7 @@ a {
   }
   .landing-page-sec .links-landing-page a {
     padding-right: 40px;
+    color: #eaeaea;
   }
   .about-me {
     margin: 40px;
